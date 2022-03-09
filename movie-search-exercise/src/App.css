@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .App-logo {
@@ -35,4 +36,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input-field {
+  padding: 0.8rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.5rem;
+  outline: none;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.button {
+  padding: 0.8rem;
+  font-size: 16px;
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 0.5rem;
+  box-shadow: 1px 3px 1px #dcdcdc;
+  transition: all 0.3s;
+  outline: none;
+  min-width: 5rem;
+  margin-left: 1rem;
+}
+
+.button:hover {
+  background: #000000;
+  color: #ffffff;
 }

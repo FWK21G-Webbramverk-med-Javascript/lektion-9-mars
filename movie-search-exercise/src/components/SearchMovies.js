@@ -24,8 +24,8 @@ function SearchMovies(props) {
 
     return (
         <section>
-            <input type="text" onKeyUp={ handleKeyPress} />
-            <button onClick={ handleClick }>Sök</button>
+            <input type="text" className="input-field" onKeyUp={ handleKeyPress} />
+            <button className="button" onClick={ handleClick }>Sök</button>
         </section>
     );
 }
